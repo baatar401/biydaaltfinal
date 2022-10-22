@@ -242,3 +242,66 @@
     line-height: 28px;
     color: #5B5B5B;
 }
+.About-section .container {
+    display: flex;  
+    gap:47px;
+    margin-top: 96px;
+}
+.about-text .title p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.about-text .text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.about-feature{
+    display: flex;
+    gap: 26px;
+}
+.about-feature>div .title p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.about-feature>div .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.about-image{
+    position: relative;
+    height: 670px;
+}
+.about-image img{
+    display: block;
+    border-radius: 20px;
+    height: 670px;
+
+}
+
+.about-image::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    width: 153px;
+    height: 100%;
+    mix-blend-mode: multiply;
+    background-color: #F58A07;
+    border-radius: 20px 0 0 20px;
+}   
